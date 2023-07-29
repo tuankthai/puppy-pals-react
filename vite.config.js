@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/puppy-pals-react/",
   plugins: [react()],
-  base: "/puppy-pals-react/"
 })
