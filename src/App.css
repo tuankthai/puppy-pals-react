@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+puppyList{
+  display: flexbox;
+  flex-direction: column;
+}
