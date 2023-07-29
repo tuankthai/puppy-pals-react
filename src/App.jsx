@@ -22,6 +22,7 @@ function App() {
   return (
 
     <div className="puppyList">
+      <h1>List of Puppies</h1>
       {
         puppies.map((puppy) => {
           return <p onClick={() => { setFeatPupId(puppy.id) }} key={puppy.id}>{puppy.name}</p>
